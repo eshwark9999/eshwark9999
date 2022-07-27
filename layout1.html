@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout1</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: lightblue;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            width: 100%;
+        }
+
+        nav {
+            height: 60px;
+            background: lightgreen;
+            text-align: center;
+            line-height: 60px;
+            width: 100%;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 400px;
+        }
+
+        div:nth-child(1) {
+            background: aqua;
+            width: 49%;
+            height: 400px;
+            text-align: center;
+            line-height: 393px;
+        }
+
+        div:nth-child(2) {
+            width: 50%;
+            background: blue;
+            height: 192px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        div:nth-child(3) {
+            width: 50%;
+            height: 192px;
+            background: lightseagreen;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        aside {
+            height: 60px;
+            background: lightgreen;
+            text-align: center;
+            line-height: 60px;
+            width: 100%;
+        }
+
+        footer {
+            background: lightblue;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            width: 100%;
+        }
+
+        .demo {
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="demo1">HEADER</header>
+    <nav class="demo2">NAV</nav>
+    <main class="demo3">
+        <div class="demo">MAIN</div>
+        <div class="demo">ASIDE</div>
+        <div class="demo">SECTION</div>
+    </main>
+    <aside class="demo4">ASIDE</aside>
+    <footer class="demo5">FOOTER</footer>
+</body>
+
+</html>

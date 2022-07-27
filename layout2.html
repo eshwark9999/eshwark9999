@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: lightgray;
+            text-align: center;
+            font-size: 29px;
+            font-weight: bolder;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {}
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: lightgray;
+            height: 66px;
+        }
+
+        ul li {
+            list-style-type: none;
+            margin: 10px;
+        }
+
+        #demo1 {
+            background: lightgray;
+            height: 250px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            margin-top: 10px;
+            height: 300px;
+        }
+
+        section:nth-child(1) {
+            width: 33.33%;
+            margin: 10px;
+            margin-left: 0px;
+            background: lightgray;
+            line-height: 60px;
+        }
+
+        section:nth-child(2) {
+            width: 33.33%;
+            margin: 10px;
+            background: lightgray;
+            line-height: 60px;
+        }
+
+        section:nth-child(3) {
+            width: 33.33%;
+            margin: 10px;
+            margin-right: 0px;
+            background: lightgray;
+            line-height: 60px;
+        }
+
+
+
+        footer {
+            background: lightgray;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Logo</header>
+    <nav>
+        <ul>
+            <li><a href="#a">Home</a></li>
+            <li><a href="#a">Product</a></li>
+            <li><a href="#a">Services</a></li>
+            <li><a href="#a">About</a></li>
+            <li><a href="#a">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="demo1">Feature</div>
+    <main>
+        <section>Coloumn one</section>
+        <section>Coloumn two</section>
+        <section>Coloumn three</section>
+    </main>
+    <footer> © Copyright 2011</footer>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 3</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        main {
+            display: flex;
+            /* margin: 2px; */
+        }
+
+        .sectionFirst {
+            display: flex;
+        }
+
+        .sectionFirstDiv {
+            width: 200px;
+            height: 100vh;
+            background: #3c973c;
+            margin: 5px;
+        }
+
+        .sectionSecond {
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .sectionSecondDiv1 {
+            text-align: center;
+            line-height: 200px;
+            color: #d1e71e;
+            font-family: sans-serif;
+            font-size: 46px;
+            width: 900px;
+            height: 200px;
+            background: #3c973c;
+            margin: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 68vh;
+        }
+        .cont {
+            margin: 4px;
+        }
+
+        .sectionSecondDiv2 {
+            background: #cccf13;
+            width: 49%;
+            height: 48%;
+        }
+
+        .sectionSecondDiv3 {
+            background: #dd533a;
+            width: 49%;
+            height: 48%;
+        }
+
+        .sectionSecondDiv4 {
+            width: 49%;
+            background: #dd533a;
+            height: 48%;
+        }
+
+        .sectionSecondDiv5 {
+            background: #cccf13;
+            width: 49%;
+            height: 48%;
+        }
+
+
+        .sectionThird {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .sectionThirdDiv1 {
+            background: #dd533a;
+            height: 201px;
+            width: 250px;
+            margin: 5px;
+        }
+
+        .sectionThirdDiv2 {
+            background: #3c973c;
+            height: 415px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="sectionFirst">
+            <div class="sectionFirstDiv"></div>
+        </section>
+        <section class="sectionSecond">
+            <div class="sectionSecondDiv1"> WELCOME TO CSS LAYOUT</div>
+
+            <div class="container">
+                <div class="cont sectionSecondDiv2"></div>
+                <div class="cont sectionSecondDiv3"></div>
+                <div class="cont sectionSecondDiv4"></div>
+                <div class="cont sectionSecondDiv5"></div>
+            </div>
+        </section>
+        <section class="sectionThird">
+            <div class="sectionThirdDiv1"></div>
+            <div class="sectionThirdDiv2"></div>
+        </section>
+    </main>
+</body>
+
+</html>
